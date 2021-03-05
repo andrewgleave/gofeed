@@ -1,15 +1,9 @@
 {
-  "author": {
-    "email": "email@example.org",
-    "name": "Feed WebMaster"
-  },
-  "authors": [
-    {
-      "email": "email@example.org",
-      "name": "Feed WebMaster"
-    }
-  ],
-  "feedType": "rss",
-  "feedVersion": "2.0",
-  "items": []
+    "author": {
+        "name": "Feed WebMaster",
+        "email": "email@example.org"
+    },
+    "items": [],
+    "feedType": "rss",
+    "feedVersion": "2.0"
 }

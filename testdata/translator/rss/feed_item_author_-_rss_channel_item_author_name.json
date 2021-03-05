@@ -1,16 +1,11 @@
 {
-  "feedType": "rss",
-  "feedVersion": "2.0",
-  "items": [
-    {
-      "author": {
-        "name": "Author Name"
-      },
-      "authors": [
+    "items": [
         {
-          "name": "Author Name"
+            "author": {
+                "name": "Author Name"
+            }
         }
-      ]
-    }
-  ]
+    ],
+    "feedType": "rss",
+    "feedVersion": "2.0"
 }

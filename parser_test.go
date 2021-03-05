@@ -31,8 +31,6 @@ func TestParser_Parse(t *testing.T) {
 		{"rss_feed_leading_spaces.xml", "rss", "Feed Title", false},
 		{"rdf_feed.xml", "rss", "Feed Title", false},
 		{"sample.json", "json", "title", false},
-		{"json10_feed.json", "json", "title", false},
-		{"json11_feed.json", "json", "title", false},
 		{"unknown_feed.xml", "", "", true},
 		{"empty_feed.xml", "", "", true},
 		{"invalid.json", "", "", true},
@@ -116,8 +114,7 @@ func TestParser_ParseURL_Success(t *testing.T) {
 		{"rss_feed_bom.xml", "rss", "Feed Title", false},
 		{"rss_feed_leading_spaces.xml", "rss", "Feed Title", false},
 		{"rdf_feed.xml", "rss", "Feed Title", false},
-		{"json10_feed.json", "json", "title", false},
-		{"json11_feed.json", "json", "title", false},
+		{"sample.json", "json", "title", false},
 		{"unknown_feed.xml", "", "", true},
 		{"invalid.json", "", "", true},
 	}

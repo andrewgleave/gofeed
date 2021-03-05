@@ -1,16 +1,11 @@
 {
-  "feedType": "atom",
-  "feedVersion": "0.3",
-  "items": [
-    {
-      "author": {
-        "email": "email@example.org"
-      },
-      "authors": [
+    "items": [
         {
-          "email": "email@example.org"
+            "author": {
+                "email": "email@example.org"
+            }
         }
-      ]
-    }
-  ]
+    ],
+    "feedType": "atom",
+    "feedVersion": "0.3"
 }
